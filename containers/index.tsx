@@ -1,7 +1,6 @@
 import React from "react";
-import { useRouter } from "next/router";
 import { Stack } from "@mui/material";
-import { Appbar } from "../appBar";
+import PageBar from "@/components/PageBar";
 
 export const RootContainer = ({ children }: React.PropsWithChildren) => {
   return (
@@ -11,13 +10,13 @@ export const RootContainer = ({ children }: React.PropsWithChildren) => {
       bottom={0}
       left={0}
       right={0}
-      pt={8}
+      pt={4}
       sx={{
         overflowX: "hidden",
         overflowY: "auto",
       }}
     >
-      <Appbar />
+      <PageBar />
       {children}
     </Stack>
   );

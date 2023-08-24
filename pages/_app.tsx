@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { AppProps } from "next/app";
-import { RootContainer } from "@/components/containers";
+import { RootContainer } from "@/containers";
 import { ThemeProvider } from "@/theme/provider";
 
 const App = ({ Component, pageProps }: AppProps) => {

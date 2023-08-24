@@ -1,40 +1,43 @@
 export const palette = {
-  palette: {
-    primary: {
-      light: "#8e24aa",
-      main: "#673ab7",
-      dark: "#4527a0",
-      contrastText: "#ffffff",
-    },
-    secondary: {
-      light: "#b39ddb",
-      main: "#9c27b0",
-      dark: "#7b1fa2",
-      contrastText: "#ffffff",
-    },
-    info: {
-      light: "#64b5f6",
-      main: "#2196f3",
-      dark: "#1976d2",
-      contrastText: "#ffffff",
-    },
-    warning: {
-      light: "#ffb74d",
-      main: "#ff9800",
-      dark: "#f57c00",
-      contrastText: "#ffffff",
-    },
-    success: {
-      light: "#81c784",
-      main: "#4caf50",
-      dark: "#388e3c",
-      contrastText: "#ffffff",
-    },
-    error: {
-      light: "#e57373",
-      main: "#f44336",
-      dark: "#d32f2f",
-      contrastText: "#ffffff",
-    },
+  mode: "light",
+  primary: {
+    light: "#6a5f7c",
+    main: "#2e253f",
+    dark: "#1f1831",
+    contrastText: "#ffffff",
+  },
+  secondary: {
+    light: "#6a5f7c",
+    main: "#442836",
+    dark: "#2e2130",
+    contrastText: "#ffffff",
+  },
+  info: {
+    light: "#5c90d2",
+    main: "#387ac6",
+    dark: "#2a589c",
+    contrastText: "#ffffff",
+  },
+  warning: {
+    light: "#e0b24f",
+    main: "#d69e2e",
+    dark: "#a4771f",
+    contrastText: "#ffffff",
+  },
+  success: {
+    light: "#67c887",
+    main: "#3da35b",
+    dark: "#2a773d",
+    contrastText: "#ffffff",
+  },
+  error: {
+    light: "#e57373",
+    main: "#d32f2f",
+    dark: "#9a0007",
+    contrastText: "#ffffff",
+  },
+  background: {
+    paper: "#ffffff",
+    default: "#000000",
   },
 };
