@@ -7,12 +7,13 @@ const PageBar = () => {
       position="fixed"
       sx={(theme) => ({
         zIndex: theme.zIndex.drawer + 1,
-        backgroundColor: theme.palette.background.default,
+        padding: theme.spacing(1),
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
       })}
     >
       <Stack direction="row" justifyContent="center" alignItems="center">
         <ButtonBase disableRipple>
-          <Typography variant="h6" color="white">
+          <Typography variant="h5" color="white">
             Templo de Loki
           </Typography>
         </ButtonBase>

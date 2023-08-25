@@ -1,6 +1,6 @@
 import React from "react";
 import { Stack } from "@mui/material";
-import PageBar from "@/components/PageBar";
+import PageBar from "@/components/Page/Bar";
 
 export const RootContainer = ({ children }: React.PropsWithChildren) => {
   return (
