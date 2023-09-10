@@ -2,13 +2,13 @@ export const palette = {
   mode: "light",
   primary: {
     light: "#6a5f7c",
-    main: "#2e253f",
+    main: "#2B192E",
     dark: "#1f1831",
     contrastText: "#ffffff",
   },
   secondary: {
     light: "#6a5f7c",
-    main: "#442836",
+    main: "#010B07",
     dark: "#2e2130",
     contrastText: "#ffffff",
   },
@@ -38,6 +38,6 @@ export const palette = {
   },
   background: {
     paper: "#ffffff",
-    default: "#000000",
+    default: "rgba(0, 0, 0, 0.6)",
   },
 };

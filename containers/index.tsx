@@ -1,4 +1,3 @@
-import React from "react";
 import { Stack } from "@mui/material";
 import PageBar from "@/components/Page/Bar";
 
@@ -10,7 +9,7 @@ export const RootContainer = ({ children }: React.PropsWithChildren) => {
       bottom={0}
       left={0}
       right={0}
-      pt={4}
+      pt={10}
       sx={{
         overflowX: "hidden",
         overflowY: "auto",

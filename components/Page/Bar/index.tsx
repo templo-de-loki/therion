@@ -1,5 +1,5 @@
-import React from "react";
-import { Stack, AppBar, ButtonBase, Typography } from "@mui/material";
+import Image from "next/image";
+import { Stack, AppBar, ButtonBase } from "@mui/material";
 
 const PageBar = () => {
   return (
@@ -8,14 +8,17 @@ const PageBar = () => {
       sx={(theme) => ({
         zIndex: theme.zIndex.drawer + 1,
         padding: theme.spacing(1),
-        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        backgroundColor: theme.palette.background.default,
       })}
     >
       <Stack direction="row" justifyContent="center" alignItems="center">
         <ButtonBase disableRipple>
-          <Typography variant="h5" color="white">
-            Templo de Loki
-          </Typography>
+          <Image
+            src="/logo.svg"
+            alt="Picture of the author"
+            width={150}
+            height={60}
+          />
         </ButtonBase>
       </Stack>
     </AppBar>

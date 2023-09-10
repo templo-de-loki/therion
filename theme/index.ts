@@ -3,9 +3,9 @@ import { createTheme, PaletteOptions } from "@mui/material";
 
 export const theme = createTheme({
   palette: palette as PaletteOptions,
-  shape: { borderRadius: 4 },
+  shape: { borderRadius: 2 },
   typography: {
-    fontFamily: ["Georgia", "serif"].join(","),
+    fontFamily: ["Montserrat", "sans-serif"].join(","),
     fontSize: 16,
   },
 });

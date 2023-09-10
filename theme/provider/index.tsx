@@ -1,4 +1,3 @@
-import React from "react";
 import { theme } from "..";
 import { CssBaseline, ThemeProvider as MuiThemeProvider } from "@mui/material";
 

@@ -1,10 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
 import { NextPage } from "next";
-import { Stack, Typography } from "@mui/material";
+import { Stack } from "@mui/material";
 import { PageWrapper } from "@/components/Page/Wrapper";
 import MediaCard from "@/components/MediaCard";
 
-const DashboardPage: NextPage = () => {
+const MainPage: NextPage = () => {
   return (
     <PageWrapper>
       <Stack
@@ -20,4 +19,4 @@ const DashboardPage: NextPage = () => {
   );
 };
 
-export default DashboardPage;
+export default MainPage;
