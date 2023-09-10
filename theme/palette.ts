@@ -38,6 +38,6 @@ export const palette = {
   },
   background: {
     paper: "#ffffff",
-    default: "rgba(0, 0, 0, 0.6)",
+    default: "rgba(0, 0, 0, 0.7)",
   },
 };

@@ -17,7 +17,7 @@ const PageBar = () => {
             src="/logo.svg"
             alt="Picture of the author"
             width={150}
-            height={60}
+            height={65}
           />
         </ButtonBase>
       </Stack>
