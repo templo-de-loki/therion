@@ -9,7 +9,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <RootContainer>
         <Head>
           <title>Templo de Loki</title>
-          <link rel="icon" href="/logo.png" />
+          <link rel="icon" href="/logo.svg" />
         </Head>
         <Component {...pageProps} />
       </RootContainer>
