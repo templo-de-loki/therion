@@ -6,8 +6,8 @@ const PageBar = () => {
     <AppBar
       position="fixed"
       sx={(theme) => ({
-        zIndex: theme.zIndex.drawer + 1,
         padding: theme.spacing(1),
+        zIndex: theme.zIndex.drawer + 1, // check
         backgroundColor: theme.palette.background.default,
       })}
     >

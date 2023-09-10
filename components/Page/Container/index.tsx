@@ -5,7 +5,6 @@ export const PageContainer = ({ children }: React.PropsWithChildren) => {
     <Stack flexGrow={1}>
       <Stack
         boxShadow={1}
-        borderRadius={1}
         overflow="hidden"
         justifyContent="center"
         sx={(theme) => ({

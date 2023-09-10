@@ -40,4 +40,8 @@ export const palette = {
     paper: "#ffffff",
     default: "rgba(0, 0, 0, 0.7)",
   },
+  common: {
+    black: "#000000",
+    white: "#ffffff",
+  },
 };

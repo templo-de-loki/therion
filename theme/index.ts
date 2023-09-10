@@ -7,6 +7,9 @@ export const theme = createTheme({
   typography: {
     fontFamily: ["Montserrat", "sans-serif"].join(","),
     fontSize: 16,
+    body1: {
+      color: palette.common.white, // Assuming 'common' is defined in your palette
+    },
   },
 });
 
