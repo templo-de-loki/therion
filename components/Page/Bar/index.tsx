@@ -18,22 +18,6 @@ import CloseIcon from "@mui/icons-material/Close";
 const PageBar = () => {
   const isMobile = useIsMobile();
 
-  const leftMenuItems = [
-    { label: "SOBRE", path: "/sobre" },
-    { label: "ROKKATRU", path: "/rokkatru" },
-    { label: "EBOOK", path: "/ebook" },
-  ];
-
-  const rightMenuItems = [
-    { label: "ATENDIMENTO", path: "/atendimentos" },
-    { label: "CONTATO", path: "/contato" },
-    { label: "ALGO", path: "/algo" },
-  ];
-
-  const handleButtonClick = (path: string) => {
-    router.push(path);
-  };
-
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
 
   const handleOpenDrawer = () => {
@@ -42,6 +26,23 @@ const PageBar = () => {
 
   const handleCloseDrawer = () => {
     setIsDrawerOpen(false);
+  };
+
+  const leftMenuItems = [
+    { label: "SOBRE", path: "/sobre" },
+    { label: "ROKKATRU", path: "/rokkatru" },
+    { label: "EBOOK", path: "/ebook" },
+  ];
+
+  const rightMenuItems = [
+    { label: "ATENDIMENTO", path: "/atendimento" },
+    { label: "CONTATO", path: "/contato" },
+    { label: "ALGO", path: "/algo" },
+  ];
+
+  const handleButtonClick = (path: string) => {
+    handleCloseDrawer();
+    router.push(path);
   };
 
   return (
