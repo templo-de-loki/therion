@@ -24,7 +24,11 @@ const AboutPage: NextPage = () => {
 
       <Stack>
         <PageContainer>
-          <Stack direction="row" spacing={2}>
+          <Stack
+            direction={{ xs: "column", sm: "row" }}
+            alignItems="center"
+            spacing={2}
+          >
             <Stack justifyContent="center" alignItems="left" spacing={2}>
               <Typography variant="h6" fontWeight="bold">
                 Templo de Loki
@@ -51,7 +55,11 @@ const AboutPage: NextPage = () => {
         </PageContainer>
 
         <PageContainer>
-          <Stack direction="row" spacing={2}>
+          <Stack
+            direction={{ xs: "column", sm: "row" }}
+            alignItems="center"
+            spacing={2}
+          >
             <Image
               src="/loki-image.svg"
               alt="Picture of the author"
@@ -83,7 +91,7 @@ const AboutPage: NextPage = () => {
           spacing={2}
         >
           <Stack>
-            <Typography variant="h4" fontWeight="bold">
+            <Typography variant="h4" fontWeight="bold" align="center">
               POR TRAS DO TEMPLO DE LOKI
             </Typography>
             <Typography>
@@ -92,7 +100,7 @@ const AboutPage: NextPage = () => {
             </Typography>
           </Stack>
 
-          <Stack direction="row" spacing={8}>
+          <Stack direction={{ xs: "column", sm: "row" }} spacing={8}>
             <ContentCard
               title="Caio dos Santos"
               content="Desde os 16 anos, meu chamado pessoal começou quando comecei a ouvir histórias sobre os Deuses e sonhava em fazer parte desse mundo se eles fossem reais."
