@@ -3,7 +3,7 @@ import { Stack, Typography } from "@mui/material";
 import { PageWrapper } from "@/components/Page/Wrapper";
 import { PageContainer } from "@/components/Page/Container";
 
-const MainPage: NextPage = () => {
+const RokkatruPage: NextPage = () => {
   return (
     <PageWrapper>
       <Stack
@@ -13,7 +13,7 @@ const MainPage: NextPage = () => {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4">WIP</Typography>
+        <Typography variant="h4">ROKKATRU</Typography>
       </Stack>
 
       <Stack>
@@ -23,4 +23,4 @@ const MainPage: NextPage = () => {
   );
 };
 
-export default MainPage;
+export default RokkatruPage;
