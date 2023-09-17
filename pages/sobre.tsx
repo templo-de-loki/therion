@@ -17,7 +17,9 @@ const AboutPage: NextPage = () => {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4">SOBRE NÓS</Typography>
+        <Typography variant="h4" fontWeight="bold">
+          SOBRE NÓS
+        </Typography>
       </Stack>
 
       <Stack>
@@ -81,7 +83,9 @@ const AboutPage: NextPage = () => {
           spacing={2}
         >
           <Stack>
-            <Typography variant="h4">POR TRAS DO TEMPLO DE LOKI</Typography>
+            <Typography variant="h4" fontWeight="bold">
+              POR TRAS DO TEMPLO DE LOKI
+            </Typography>
             <Typography>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate
               fames ut.
@@ -107,7 +111,9 @@ const AboutPage: NextPage = () => {
             alignItems="center"
             spacing={2}
           >
-            <Typography variant="h4">AVALIAÇÕES</Typography>
+            <Typography variant="h4" fontWeight="bold">
+              AVALIAÇÕES
+            </Typography>
           </Stack>
 
           <Grid container direction="row" spacing={4} padding={4}>

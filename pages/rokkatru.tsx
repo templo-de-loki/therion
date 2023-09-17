@@ -13,7 +13,9 @@ const RokkatruPage: NextPage = () => {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4">ROKKATRU</Typography>
+        <Typography variant="h4" fontWeight="bold">
+          ROKKATRU
+        </Typography>
       </Stack>
 
       <Stack>

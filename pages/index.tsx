@@ -13,7 +13,9 @@ const MainPage: NextPage = () => {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4">WIP</Typography>
+        <Typography variant="h4" fontWeight="bold">
+          WIP
+        </Typography>
       </Stack>
 
       <Stack>
