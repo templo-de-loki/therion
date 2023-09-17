@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { NextPage } from "next";
-import { Rating, Stack, Typography } from "@mui/material";
+import { Review } from "@/components/Review";
+import { ContentCard } from "@/components/Card";
+import { Grid, Stack, Typography } from "@mui/material";
 import { PageWrapper } from "@/components/Page/Wrapper";
 import { PageContainer } from "@/components/Page/Container";
-import { ContentCard } from "@/components/Card";
-
-import StarIcon from "@mui/icons-material/Star";
+import { reviewData } from "@/components/Review/data";
 
 const MainPage: NextPage = () => {
   return (
@@ -108,82 +108,20 @@ const MainPage: NextPage = () => {
             spacing={2}
           >
             <Typography variant="h4">AVALIAÇÕES</Typography>
-
-            <Stack direction="row" spacing={2}>
-              <Stack spacing={2}>
-                <Rating
-                  value={4}
-                  readOnly
-                  icon={
-                    <StarIcon
-                      style={{ opacity: 1, color: "white" }}
-                      fontSize="inherit"
-                    />
-                  }
-                  emptyIcon={
-                    <StarIcon
-                      style={{ opacity: 0.5, color: "white" }}
-                      fontSize="inherit"
-                    />
-                  }
-                />
-                <Typography>
-                  The only moment, the only life we have is in the NOW. What
-                  happened a few moments or several years ago is gone, what will
-                  happen this evening.
-                </Typography>
-                <Typography>Santiago Valentín, Manager</Typography>
-              </Stack>
-              <Stack spacing={2}>
-                <Rating
-                  value={4}
-                  readOnly
-                  icon={
-                    <StarIcon
-                      style={{ opacity: 1, color: "white" }}
-                      fontSize="inherit"
-                    />
-                  }
-                  emptyIcon={
-                    <StarIcon
-                      style={{ opacity: 0.5, color: "white" }}
-                      fontSize="inherit"
-                    />
-                  }
-                />
-                <Typography>
-                  The only moment, the only life we have is in the NOW. What
-                  happened a few moments or several years ago is gone, what will
-                  happen this evening.
-                </Typography>
-                <Typography>Santiago Valentín, Manager</Typography>
-              </Stack>
-              <Stack spacing={2}>
-                <Rating
-                  value={4}
-                  readOnly
-                  icon={
-                    <StarIcon
-                      style={{ opacity: 1, color: "white" }}
-                      fontSize="inherit"
-                    />
-                  }
-                  emptyIcon={
-                    <StarIcon
-                      style={{ opacity: 0.5, color: "white" }}
-                      fontSize="inherit"
-                    />
-                  }
-                />
-                <Typography>
-                  The only moment, the only life we have is in the NOW. What
-                  happened a few moments or several years ago is gone, what will
-                  happen this evening.
-                </Typography>
-                <Typography>Santiago Valentín, Manager</Typography>
-              </Stack>
-            </Stack>
           </Stack>
+
+          <Grid container direction="row" spacing={4} padding={4}>
+            {reviewData.map((review, index) => (
+              <Grid item key={index} xs={12} md={4}>
+                <Review
+                  key={index}
+                  rating={review.rating}
+                  person={review.person}
+                  review={review.review}
+                />
+              </Grid>
+            ))}
+          </Grid>
         </PageContainer>
       </Stack>
     </PageWrapper>
