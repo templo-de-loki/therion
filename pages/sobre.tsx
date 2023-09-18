@@ -7,6 +7,7 @@ import { PageWrapper } from "@/components/Page/Wrapper";
 import { PageContainer } from "@/components/Page/Container";
 import { reviewData } from "@/components/Review/data";
 
+
 const AboutPage: NextPage = () => {
   return (
     <PageWrapper>
@@ -128,7 +129,7 @@ const AboutPage: NextPage = () => {
             {reviewData.map((review, index) => (
               <Grid item key={index} xs={12} md={4}>
                 <Review
-                  key={index}
+                  // key={index} comentei pois vi no chatgpt que não tinha a necessidade de chmar key 2 vezes
                   rating={review.rating}
                   person={review.person}
                   review={review.review}
