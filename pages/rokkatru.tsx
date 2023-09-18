@@ -17,8 +17,6 @@ const RokkatruPage: NextPage = () => {
           ROKKATRU
         </Typography>
       </Stack>
-
-      
         <PageContainer>
           <Typography fontWeight="bold">ROKKATRU</Typography>
           <Typography>
