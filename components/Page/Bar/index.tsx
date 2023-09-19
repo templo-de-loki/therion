@@ -37,7 +37,7 @@ const PageBar = () => {
   const rightMenuItems = [
     { label: "ATENDIMENTO", path: "/atendimento" },
     { label: "CONTATO", path: "/contato" },
-    { label: "ALGO", path: "/algo" },
+    { label: "PESQUISA", path: "/pesquisa" },
   ];
 
   const handleButtonClick = (path: string) => {

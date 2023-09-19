@@ -102,12 +102,14 @@ const AboutPage: NextPage = () => {
 
           <Stack direction={{ xs: "column", sm: "row" }} spacing={8}>
             <ContentCard
-              title="Caio dos Santos"
-              content="Desde os 16 anos, meu chamado pessoal começou quando comecei a ouvir histórias sobre os Deuses e sonhava em fazer parte desse mundo se eles fossem reais."
+              image="/person-one.svg"
+              title="Caim - Sacerdote"
+              content="Meu chamado pessoal começou aos 16 anos, desde então tenho estudado, praticado e me aprimorado no contexto nórdico. Atualmente, minha jornada me leva pelo caminho Rokkatru. Com o conhecimento adquirido, dedico-me a ajudar novos praticantes em suas trilhas pessoais."
             />
             <ContentCard
+              image="/person-two.svg"
               title="Caio dos Santos"
-              content="Desde os 16 anos, meu chamado pessoal começou quando comecei a ouvir histórias sobre os Deuses e sonhava em fazer parte desse mundo se eles fossem reais."
+              content="Tão caótica quanto Rokkr, a equipe do templo de Loki é variada, composta por uma caoísta, um seguidor de Rokkatru e um ateu. Todos unidos pelo objetivo de melhorar e direcionar informações Lokianas para cada um de vocês."
             />
           </Stack>
         </Stack>
@@ -120,7 +122,7 @@ const AboutPage: NextPage = () => {
             spacing={2}
           >
             <Typography variant="h4" fontWeight="bold">
-              AVALIAÇÕES
+              FEEDBACK
             </Typography>
           </Stack>
 
