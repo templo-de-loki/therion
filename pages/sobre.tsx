@@ -37,7 +37,7 @@ const AboutPage: NextPage = () => {
                 O <b>Templo</b> foi criado em 2020, com o intuito de auxiliar
                 magistas do meio nórdico a aprenderem sobre magia e paganismo de
                 uma forma leve e descontraída, sem muitos dogmas ou limitações,
-                seguindo a vertente Rokkatru.
+                seguindo a vertente Rökkatru.
               </Typography>
               <Typography>
                 Desde sua fundação, o <b>Templo</b> tem crescido e evoluído
@@ -71,7 +71,7 @@ const AboutPage: NextPage = () => {
                 Loki
               </Typography>
               <Typography>
-                Na vertente rokkatru, Loki é visto como uma figura ambivalente
+                Na vertente Rökkatru, Loki é visto como uma figura ambivalente
                 que representa tanto o caos e a travessura quanto a inovação, a
                 transformação e a subversão das normas.
               </Typography>
@@ -104,12 +104,12 @@ const AboutPage: NextPage = () => {
             <ContentCard
               image="/person-one.svg"
               title="Caim - Sacerdote"
-              content="Meu chamado pessoal começou aos 16 anos, desde então tenho estudado, praticado e me aprimorado no contexto nórdico. Atualmente, minha jornada me leva pelo caminho Rokkatru. Com o conhecimento adquirido, dedico-me a ajudar novos praticantes em suas trilhas pessoais."
+              content="Meu chamado pessoal começou aos 16 anos, desde então tenho estudado, praticado e me aprimorado no contexto nórdico. Atualmente, minha jornada me leva pelo caminho Rökkatru. Com o conhecimento adquirido, dedico-me a ajudar novos praticantes em suas trilhas pessoais."
             />
             <ContentCard
               image="/person-two.svg"
               title="Caio dos Santos"
-              content="Tão caótica quanto Rokkr, a equipe do templo de Loki é variada, composta por uma caoísta, um seguidor de Rokkatru e um ateu. Todos unidos pelo objetivo de melhorar e direcionar informações Lokianas para cada um de vocês."
+              content="Tão caótica quanto Rokkr, a equipe do templo de Loki é variada, composta por uma caoísta, um seguidor de Rökkatru e um ateu. Todos unidos pelo objetivo de melhorar e direcionar informações Lokianas para cada um de vocês."
             />
           </Stack>
         </Stack>

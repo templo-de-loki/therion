@@ -30,7 +30,7 @@ const PageBar = () => {
 
   const leftMenuItems = [
     { label: "SOBRE", path: "/sobre" },
-    { label: "ROKKATRU", path: "/rokkatru" },
+    { label: "RÖKKATRU", path: "/rokkatru" },
     { label: "EBOOK", path: "/ebook" },
   ];
 
