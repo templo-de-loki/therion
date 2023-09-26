@@ -8,13 +8,12 @@ const MainPage: NextPage = () => {
     <PageWrapper>
       <Stack
         justifyContent="center"
-        alignItems="center"
         sx={(theme) => ({
           marginTop: theme.spacing(6),
         })}
       >
         <Typography variant="h4" fontWeight="bold">
-          WIP
+          Gosto de Pão
         </Typography>
       </Stack>
 
