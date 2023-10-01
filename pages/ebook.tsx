@@ -40,7 +40,9 @@ const RökkatruPage: NextPage = () => {
             alt="Picture of the author"
             width={282}
             height={419}
+            style={{ borderRadius: "8px" }}
           />
+
           <Stack
             padding={2}
             direction="column"

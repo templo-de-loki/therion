@@ -15,14 +15,15 @@ export const ContentCard = ({ image, title, content }: ContentCardProps) => {
       sx={(theme) => ({
         maxWidth: 345,
         borderRadius: theme.shape.borderRadius,
+        backgroundColor: theme.palette.background.default,
       })}
     >
       <CardMedia sx={{ height: 280 }} image={image} title="Person Image" />
       <CardContent>
-        <Typography gutterBottom variant="h6" fontWeight="bold">
+        <Typography gutterBottom variant="h6" fontWeight="bold" color="white">
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        <Typography variant="body2" color="white">
           {content}
         </Typography>
       </CardContent>

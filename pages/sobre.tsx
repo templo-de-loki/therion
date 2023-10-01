@@ -1,11 +1,11 @@
 import Image from "next/image";
 import { NextPage } from "next";
+import { review } from "@/components/data";
 import { Review } from "@/components/Review";
 import { ContentCard } from "@/components/Card";
 import { Grid, Stack, Typography } from "@mui/material";
 import { PageWrapper } from "@/components/Page/Wrapper";
 import { PageContainer } from "@/components/Page/Container";
-import { reviewData } from "@/components/Review/data";
 
 const AboutPage: NextPage = () => {
   return (
@@ -108,7 +108,7 @@ const AboutPage: NextPage = () => {
             />
             <ContentCard
               image="/person-two.svg"
-              title="Caio dos Santos"
+              title="Equipe TDL"
               content="Tão caótica quanto Rokkr, a equipe do templo de Loki é variada, composta por uma caoísta, um seguidor de Rökkatru e um ateu. Todos unidos pelo objetivo de melhorar e direcionar informações Lokianas para cada um de vocês."
             />
           </Stack>
@@ -127,7 +127,7 @@ const AboutPage: NextPage = () => {
           </Stack>
 
           <Grid container direction="row" spacing={4} padding={4}>
-            {reviewData.map((review, index) => (
+            {review.map((review, index) => (
               <Grid item key={index} xs={12} md={4}>
                 <Review
                   key={index}
