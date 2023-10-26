@@ -1,9 +1,7 @@
-"use client";
-
 import React from "react";
+import { Button, Stack } from "@mui/material";
 import Card from "@mui/material/Card";
 import { styled } from "@mui/material/styles";
-import { Button, Stack } from "@mui/material";
 import Collapse from "@mui/material/Collapse";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
