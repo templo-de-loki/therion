@@ -5,7 +5,6 @@ export const PageWrapper = ({ children }: React.PropsWithChildren) => {
   return (
     <Stack>
       <Stack flexGrow={1}>{children}</Stack>
-
       <Stack
         sx={{
           position: "fixed",

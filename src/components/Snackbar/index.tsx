@@ -1,5 +1,5 @@
 import React from "react";
-import { Alert, type AlertColor } from "@mui/material";
+import { Alert, AlertColor } from "@mui/material";
 import { Snackbar as MuiSnackbar, Slide, Stack } from "@mui/material";
 
 interface SnackbarProps {

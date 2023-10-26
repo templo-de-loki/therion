@@ -1,8 +1,5 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
-
 import {
   Stack,
   AppBar,
@@ -11,14 +8,14 @@ import {
   Container,
   IconButton,
 } from "@mui/material";
-import { PageDrawer } from "../Drawer";
-import { redirect } from "next/navigation";
-import { useIsMobile } from "~/theme/isMobile";
+import { useRouter } from "next/router";
 import MenuIcon from "@mui/icons-material/Menu";
+import { PageDrawer } from "~/components/Drawer";
 import CloseIcon from "@mui/icons-material/Close";
+import { useIsMobile } from "~/theme/useIsMobile";
 
 const PageBar = () => {
-  // const isMobile = false;
+  const router = useRouter();
   const isMobile = useIsMobile();
   const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
   const handleOpenDrawer = () => {
@@ -39,9 +36,8 @@ const PageBar = () => {
   ];
   const handleButtonClick = (path: string) => {
     handleCloseDrawer();
-    redirect(path);
+    void router.push(path);
   };
-
   return (
     <AppBar
       position="fixed"
@@ -62,7 +58,7 @@ const PageBar = () => {
             <ButtonBase
               disableRipple
               onClick={() => {
-                redirect("/");
+                void router.push("/");
               }}
             >
               <Image
@@ -110,7 +106,7 @@ const PageBar = () => {
             <ButtonBase
               disableRipple
               onClick={() => {
-                redirect("/");
+                void router.push("/");
               }}
             >
               <Image
