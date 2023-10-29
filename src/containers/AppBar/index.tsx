@@ -24,16 +24,15 @@ const PageBar = () => {
   const handleCloseDrawer = () => {
     setIsDrawerOpen(false);
   };
-  const leftMenuItems = [
+  const menuItems = [
     { label: "SOBRE", path: "/sobre" },
     { label: "RÖKKATRU", path: "/rokkatru" },
     { label: "EBOOK", path: "/ebook" },
-  ];
-  const rightMenuItems = [
     { label: "ATENDIMENTO", path: "/atendimento" },
     { label: "CONTATO", path: "/contato" },
     { label: "PESQUISA", path: "/pesquisa" },
   ];
+
   const handleButtonClick = (path: string) => {
     handleCloseDrawer();
     void router.push(path);
@@ -42,7 +41,7 @@ const PageBar = () => {
     <AppBar
       position="fixed"
       sx={(theme) => ({
-        padding: theme.spacing(1),
+        padding: theme.spacing(1.5),
         zIndex: theme.zIndex.drawer + 1, // check
         backgroundColor: theme.palette.background.default,
       })}
@@ -73,7 +72,7 @@ const PageBar = () => {
             </IconButton>
           </Stack>
           <PageDrawer open={isDrawerOpen} onClose={handleCloseDrawer}>
-            {leftMenuItems.concat(rightMenuItems).map((link, index) => (
+            {menuItems.map((link, index) => (
               <Stack key={index} padding={2}>
                 <ButtonBase
                   key={link.label}
@@ -89,20 +88,10 @@ const PageBar = () => {
       ) : (
         <Container maxWidth="lg">
           <Stack
-            spacing={2}
             direction="row"
             alignItems="center"
             justifyContent="space-around"
           >
-            {leftMenuItems.map((link) => (
-              <ButtonBase
-                key={link.label}
-                disableRipple
-                onClick={() => handleButtonClick(link.path)}
-              >
-                <Typography>{link.label}</Typography>
-              </ButtonBase>
-            ))}
             <ButtonBase
               disableRipple
               onClick={() => {
@@ -112,11 +101,11 @@ const PageBar = () => {
               <Image
                 src="/logo.svg"
                 alt="Picture of the author"
-                width={150}
-                height={65}
+                width={110}
+                height={70}
               />
             </ButtonBase>
-            {rightMenuItems.map((link) => (
+            {menuItems.map((link) => (
               <ButtonBase
                 key={link.label}
                 disableRipple

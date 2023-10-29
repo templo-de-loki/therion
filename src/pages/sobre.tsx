@@ -16,9 +16,12 @@ export default function AboutPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4" fontWeight="bold">
-          SOBRE NÓS
-        </Typography>
+        <Image
+          src="/fonts/about.svg"
+          alt="Picture of the author"
+          width={250}
+          height={40}
+        />
       </Stack>
       <Stack>
         <PageContainer>
@@ -83,18 +86,20 @@ export default function AboutPage() {
         <Stack
           justifyContent="center"
           alignItems="center"
-          margin={6}
           spacing={2}
+          sx={(theme) => ({
+            margin: theme.spacing(5),
+          })}
         >
-          <Stack>
-            <Typography variant="h4" fontWeight="bold" align="center">
-              POR TRAS DO TEMPLO DE LOKI
-            </Typography>
-            <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vulputate
-              fames ut.
-            </Typography>
+          <Stack pb={2}>
+            <Image
+              src="/fonts/behind-the-temple.svg"
+              alt="Picture of the author"
+              width={600}
+              height={30}
+            />
           </Stack>
+
           <Stack direction={{ xs: "column", sm: "row" }} spacing={8}>
             <ContentCard
               image="/person-one.svg"
