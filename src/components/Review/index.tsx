@@ -4,10 +4,9 @@ import { Rating, Stack, Typography } from "@mui/material";
 interface ReviewProps {
   rating: number;
   review: string;
-  person: string;
 }
 
-export const Review = ({ rating, review, person }: ReviewProps) => {
+export const Review = ({ rating, review }: ReviewProps) => {
   return (
     <Stack spacing={2}>
       <Rating
@@ -24,7 +23,6 @@ export const Review = ({ rating, review, person }: ReviewProps) => {
         }
       />
       <Typography>{review}</Typography>
-      <Typography>{person}</Typography>
     </Stack>
   );
 };

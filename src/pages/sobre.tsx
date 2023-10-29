@@ -125,7 +125,6 @@ export default function AboutPage() {
                 <Review
                   key={index}
                   rating={review.rating}
-                  person={review.person}
                   review={review.review}
                 />
               </Grid>
