@@ -44,6 +44,17 @@ export const ExpandableCard = ({
     setExpanded(!expanded);
   };
 
+  const message = encodeURIComponent(
+    `Olá e seja bem-vindo ao Atendimento Templo de Loki.\nVocê solicitou o ${product} no valor de ${price}. Nossos sacerdotes entrarão em contato com você assim que receberem esta mensagem.`
+  );
+
+  const handleBuyClick = () => {
+    window.open(
+      `https://api.whatsapp.com/send?1=pt_BR&phone=5521969714712&text=${message}`,
+      "_blank"
+    );
+  };
+
   return (
     <Card
       sx={(theme) => ({
@@ -63,7 +74,12 @@ export const ExpandableCard = ({
         <Typography variant="body2">{description}</Typography>
       </Stack>
       <Stack direction="row" padding={1}>
-        <Button variant="outlined" fullWidth color="info">
+        <Button
+          fullWidth
+          color="secondary"
+          variant="outlined"
+          onClick={handleBuyClick}
+        >
           Comprar
         </Button>
         <ExpandMore
