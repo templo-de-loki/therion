@@ -25,7 +25,7 @@ const PageBar = () => {
     setIsDrawerOpen(false);
   };
   const menuItems = [
-    { label: "SOBRE", path: "/sobre" },
+    { label: "SOBRE", path: "/" },
     { label: "RÖKKATRU", path: "/rokkatru" },
     { label: "EBOOK", path: "/ebook" },
     { label: "ATENDIMENTO", path: "/atendimento" },
