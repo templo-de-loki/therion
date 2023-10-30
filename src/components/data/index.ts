@@ -7,12 +7,12 @@ export const review = [
   {
     rating: 5,
     review:
-      "Boa noite, Caim!! Queria agradecer por esses meses das aulas de runas ao seu lado, eu não poderia ter tido um professor melhor!!",
+      "Foi bem difícil para mim encontrar uma pessoa adequada para a leitura com runas; E agora ao conhecer você, eu fico muito feliz. Me da esperança e felicidade!",
   },
   {
     rating: 5,
     review:
-      "Foi bem difícil para mim encontrar uma pessoa adequada para a leitura com runas; E agora ao conhecer você, eu fico muito feliz. Me da esperança e felicidade!",
+      "Boa noite, Caim!! Queria agradecer por esses meses das aulas de runas ao seu lado, eu não poderia ter tido um professor melhor!!",
   },
 ];
 

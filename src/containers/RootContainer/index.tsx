@@ -1,22 +1,35 @@
+/* eslint-disable @next/next/no-img-element */
 import PageBar from "../AppBar";
-import { Stack } from "@mui/material";
+import Image from "next/image";
+import { Container, Stack } from "@mui/material";
 
 export const RootContainer = ({ children }: React.PropsWithChildren) => {
   return (
-    <Stack
-      position="fixed"
-      top={0}
-      bottom={0}
-      left={0}
-      right={0}
-      pt={10}
-      sx={{
-        overflowX: "hidden",
-        overflowY: "auto",
-      }}
-    >
-      <PageBar />
-      {children}
-    </Stack>
+    <Container maxWidth="lg">
+      <Stack pt={8}>
+        <PageBar />
+        {children}
+        <Stack
+          sx={{
+            position: "fixed",
+            top: 0,
+            right: 0,
+            bottom: 0,
+            left: 0,
+            zIndex: -1,
+          }}
+        >
+          <Image
+            src="/background.svg"
+            alt="Background Image"
+            fill={true}
+            priority={true}
+            style={{
+              objectFit: "cover",
+            }}
+          />
+        </Stack>
+      </Stack>
+    </Container>
   );
 };

@@ -8,21 +8,29 @@ interface ReviewProps {
 
 export const Review = ({ rating, review }: ReviewProps) => {
   return (
-    <Stack spacing={2}>
+    <Stack spacing={2} alignItems="center">
       <Rating
         value={rating}
         readOnly
         icon={
-          <StarIcon style={{ opacity: 1, color: "white" }} fontSize="inherit" />
+          <StarIcon
+            sx={(theme) => ({
+              color: theme.palette.primary.light,
+            })}
+            fontSize="inherit"
+          />
         }
         emptyIcon={
           <StarIcon
-            style={{ opacity: 0.5, color: "white" }}
+            sx={(theme) => ({
+              opacity: 0.5,
+              color: theme.palette.primary.main,
+            })}
             fontSize="inherit"
           />
         }
       />
-      <Typography>{review}</Typography>
+      <Typography align="center">{review}</Typography>
     </Stack>
   );
 };

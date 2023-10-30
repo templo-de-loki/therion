@@ -67,7 +67,10 @@ const PageBar = () => {
                 height={60}
               />
             </ButtonBase>
-            <IconButton color="inherit" onClick={handleOpenDrawer}>
+            <IconButton
+              color="inherit"
+              onClick={isDrawerOpen ? handleCloseDrawer : handleOpenDrawer}
+            >
               {isDrawerOpen ? <CloseIcon /> : <MenuIcon />}
             </IconButton>
           </Stack>

@@ -1,12 +1,11 @@
 import { product } from "~/components/data";
-import { PageWrapper } from "~/containers/PageWrapper";
 import { Grid, Stack, Typography } from "@mui/material";
 import { PageContainer } from "~/containers/PageContainer";
 import { ExpandableCard } from "~/components/ExpandableCard";
 
 export default function ServicesPage() {
   return (
-    <PageWrapper>
+    <>
       <Stack
         justifyContent="center"
         alignItems="center"
@@ -14,7 +13,7 @@ export default function ServicesPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4" fontWeight="bold">
+        <Typography variant="h5" fontWeight="bold">
           ATENDIMENTOS ORACULARES
         </Typography>
       </Stack>
@@ -36,6 +35,6 @@ export default function ServicesPage() {
           </Grid>
         </PageContainer>
       </Stack>
-    </PageWrapper>
+    </>
   );
 }

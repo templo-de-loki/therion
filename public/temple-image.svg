@@ -1,11 +1,8 @@
 <svg width="327" height="313" viewBox="0 0 327 313" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g filter="url(#filter0_d_65_1597)">
-<rect opacity="0.9" x="32.8735" y="23" width="260.478" height="248.864" stroke="#F2B109" stroke-width="2"/>
+<rect x="32.8735" y="23" width="260.478" height="248.864" stroke="#F2B109" stroke-width="2"/>
 <rect opacity="0.9" x="4" width="319" height="304.289" fill="#2B192E"/>
 <rect opacity="0.33" x="4" width="319" height="304.289" fill="url(#pattern0)"/>
-<circle opacity="0.66" cx="154.209" cy="289.578" r="3.09709" fill="white"/>
-<circle opacity="0.61" cx="163.5" cy="289.578" r="3.09709" fill="black"/>
-<circle opacity="0.61" cx="172.791" cy="289.578" r="3.09709" fill="black"/>
 </g>
 <defs>
 <filter id="filter0_d_65_1597" x="0" y="0" width="327" height="312.289" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">

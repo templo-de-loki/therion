@@ -6,10 +6,16 @@ import CardContent from "@mui/material/CardContent";
 interface ContentCardProps {
   image: string;
   title: string;
+  subTitle: string;
   content: string;
 }
 
-export const ContentCard = ({ image, title, content }: ContentCardProps) => {
+export const ContentCard = ({
+  image,
+  title,
+  subTitle,
+  content,
+}: ContentCardProps) => {
   return (
     <Card
       sx={(theme) => ({
@@ -18,10 +24,22 @@ export const ContentCard = ({ image, title, content }: ContentCardProps) => {
         backgroundColor: theme.palette.background.default,
       })}
     >
-      <CardMedia sx={{ height: 280 }} image={image} title="Person Image" />
+      <CardMedia
+        image={image}
+        sx={{ height: 240 }}
+        title="Imagem Equipe Templo"
+      />
       <CardContent>
-        <Typography gutterBottom variant="h6" fontWeight="bold" color="white">
+        <Typography variant="h6" fontWeight="bold" color="white">
           {title}
+        </Typography>
+        <Typography
+          paragraph
+          variant="body2"
+          fontWeight="bold"
+          color="primary.light"
+        >
+          {subTitle}
         </Typography>
         <Typography variant="body2" color="white">
           {content}

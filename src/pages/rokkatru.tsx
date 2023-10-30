@@ -1,10 +1,9 @@
 import { Stack, Typography } from "@mui/material";
-import { PageWrapper } from "~/containers/PageWrapper";
 import { PageContainer } from "~/containers/PageContainer";
 
 export default function RökkatruPage() {
   return (
-    <PageWrapper>
+    <>
       <Stack
         justifyContent="center"
         alignItems="center"
@@ -12,7 +11,7 @@ export default function RökkatruPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4" fontWeight="bold">
+        <Typography variant="h5" fontWeight="bold">
           RÖKKATRU
         </Typography>
       </Stack>
@@ -51,49 +50,42 @@ export default function RökkatruPage() {
           uma compreensão completa do cosmos e buscam uma conexão com os deuses
           e seres Rökkr por meio de rituais, orações e práticas espirituais.
         </Typography>
-        <Typography variant="h6" fontWeight="bold" paragraph>
-          Principais Divindades Rokk
-        </Typography>
-        <Stack
-          padding={2}
-          sx={(theme) => ({
-            borderRadius: theme.shape.borderRadius,
-            backgroundColor: theme.palette.background.default,
-          })}
-        >
-          <ul>
-            <li>
-              <b>Loki</b> O propagador do caos{" "}
-            </li>
-            <li>
-              <b>Sigyn</b> A vitoriosa
-            </li>
-            <li>
-              <b>Angrboda</b> A mãe dos Rökkatru
-            </li>
-            <li>
-              <b>Fenrir</b> O lobo da vingança{" "}
-            </li>
-            <li>
-              <b>Jormungandr</b> Serpente alada
-            </li>
-            <li>
-              <b>Hela</b> Deusa dos mortos{" "}
-            </li>
-            <li>
-              <b>Surt</b> O fogo da Mudança{" "}
-            </li>
-            <li>
-              <b>Surt</b> O fogo da Mudança{" "}
-            </li>
-            Entre outras:{" "}
-            <b>
-              Rán, Skadi, Fafnir, Nidhogg, Ymir, Gullveig, Skrymir, Skoll e
-              Hati.
-            </b>
-          </ul>
-        </Stack>
       </PageContainer>
-    </PageWrapper>
+      <Typography variant="h5" fontWeight="bold" align="center">
+        PRINCIPAIS DIVINDADES ROKK
+      </Typography>
+      <PageContainer>
+        <ul>
+          <li>
+            <b>Loki</b> O propagador do caos{" "}
+          </li>
+          <li>
+            <b>Sigyn</b> A vitoriosa
+          </li>
+          <li>
+            <b>Angrboda</b> A mãe dos Rökkatru
+          </li>
+          <li>
+            <b>Fenrir</b> O lobo da vingança{" "}
+          </li>
+          <li>
+            <b>Jormungandr</b> Serpente alada
+          </li>
+          <li>
+            <b>Hela</b> Deusa dos mortos{" "}
+          </li>
+          <li>
+            <b>Surt</b> O fogo da Mudança{" "}
+          </li>
+          <li>
+            <b>Surt</b> O fogo da Mudança{" "}
+          </li>
+          Entre outras:{" "}
+          <b>
+            Rán, Skadi, Fafnir, Nidhogg, Ymir, Gullveig, Skrymir, Skoll e Hati.
+          </b>
+        </ul>
+      </PageContainer>
+    </>
   );
 }

@@ -1,14 +1,14 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import { review } from "~/components/data";
 import { Review } from "~/components/Review";
 import { ContentCard } from "~/components/Card";
-import { PageWrapper } from "~/containers/PageWrapper";
 import { Grid, Stack, Typography } from "@mui/material";
 import { PageContainer } from "~/containers/PageContainer";
 
 export default function AboutPage() {
   return (
-    <PageWrapper>
+    <>
       <Stack
         justifyContent="center"
         alignItems="center"
@@ -16,12 +16,9 @@ export default function AboutPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Image
-          src="/fonts/about.svg"
-          alt="Picture of the author"
-          width={250}
-          height={40}
-        />
+        <Typography variant="h5" fontWeight="bold">
+          SOBRE NÓS
+        </Typography>
       </Stack>
       <Stack>
         <PageContainer>
@@ -31,7 +28,7 @@ export default function AboutPage() {
             spacing={2}
           >
             <Stack justifyContent="center" alignItems="left" spacing={2}>
-              <Typography variant="h6" fontWeight="bold">
+              <Typography variant="h6" fontWeight="bold" color="primary.light">
                 Templo de Loki
               </Typography>
               <Typography>
@@ -46,11 +43,12 @@ export default function AboutPage() {
                 promovendo o autodesenvolvimento de cada magista.
               </Typography>
             </Stack>
+
             <Image
               src="/temple-image.svg"
               alt="Picture of the author"
-              width={250}
-              height={250}
+              width={285}
+              height={280}
             />
           </Stack>
         </PageContainer>
@@ -62,12 +60,12 @@ export default function AboutPage() {
           >
             <Image
               src="/loki-image.svg"
-              alt="Picture of the author"
-              width={250}
-              height={250}
+              alt="Foto de Loki"
+              width={285}
+              height={280}
             />
             <Stack justifyContent="center" alignItems="left" spacing={2}>
-              <Typography variant="h6" fontWeight="bold">
+              <Typography variant="h6" fontWeight="bold" color="primary.light">
                 Loki
               </Typography>
               <Typography>
@@ -87,28 +85,22 @@ export default function AboutPage() {
           justifyContent="center"
           alignItems="center"
           spacing={2}
-          sx={(theme) => ({
-            margin: theme.spacing(5),
-          })}
+          padding={2}
         >
-          <Stack pb={2}>
-            <Image
-              src="/fonts/behind-the-temple.svg"
-              alt="Picture of the author"
-              width={600}
-              height={30}
-            />
-          </Stack>
-
-          <Stack direction={{ xs: "column", sm: "row" }} spacing={8}>
+          <Typography variant="h5" fontWeight="bold" align="center">
+            POR TRAS DO TEMPLO
+          </Typography>
+          <Stack direction={{ xs: "column", sm: "row" }} spacing={4}>
             <ContentCard
               image="/person-one.svg"
-              title="Caim - Sacerdote"
+              title="Caim"
+              subTitle="Sacerdote"
               content="Meu chamado pessoal começou aos 16 anos, desde então tenho estudado, praticado e me aprimorado no contexto nórdico. Atualmente, minha jornada me leva pelo caminho Rökkatru. Com o conhecimento adquirido, dedico-me a ajudar novos praticantes em suas trilhas pessoais."
             />
             <ContentCard
               image="/person-two.svg"
               title="Equipe TDL"
+              subTitle="Equipe"
               content="Tão caótica quanto Rokkr, a equipe do templo de Loki é variada, composta por uma caoísta, um seguidor de Rökkatru e um ateu. Todos unidos pelo objetivo de melhorar e direcionar informações Lokianas para cada um de vocês."
             />
           </Stack>
@@ -120,7 +112,7 @@ export default function AboutPage() {
             alignItems="center"
             spacing={2}
           >
-            <Typography variant="h4" fontWeight="bold">
+            <Typography variant="h5" fontWeight="bold">
               FEEDBACK
             </Typography>
           </Stack>
@@ -137,6 +129,6 @@ export default function AboutPage() {
           </Grid>
         </PageContainer>
       </Stack>
-    </PageWrapper>
+    </>
   );
 }

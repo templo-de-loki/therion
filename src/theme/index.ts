@@ -5,7 +5,7 @@ export const theme = createTheme({
   palette: palette as PaletteOptions,
   shape: { borderRadius: 3 },
   typography: {
-    fontFamily: ["Montserrat", "sans-serif"].join(","),
+    fontFamily: ["Helvetica Neue", "Arial", "sans-serif"].join(","),
     fontSize: 16,
   },
 });

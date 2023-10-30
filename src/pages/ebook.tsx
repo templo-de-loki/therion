@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { Snackbar } from "~/components/Snackbar";
-import { PageWrapper } from "~/containers/PageWrapper";
 import { Button, Stack, Typography } from "@mui/material";
 import { PageContainer } from "~/containers/PageContainer";
 
@@ -14,7 +13,7 @@ export default function EbookPage() {
     setIsSnackbarOpen(false);
   };
   return (
-    <PageWrapper>
+    <>
       <Stack
         justifyContent="center"
         alignItems="center"
@@ -22,7 +21,7 @@ export default function EbookPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h4" fontWeight="bold">
+        <Typography variant="h5" fontWeight="bold">
           EBOOK
         </Typography>
       </Stack>
@@ -80,6 +79,6 @@ export default function EbookPage() {
         isSnackbarOpen={isSnackbarOpen}
         severity="info"
       />
-    </PageWrapper>
+    </>
   );
 }
