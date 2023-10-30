@@ -5,6 +5,7 @@ import { Review } from "~/components/Review";
 import { ContentCard } from "~/components/Card";
 import { Grid, Stack, Typography } from "@mui/material";
 import { PageContainer } from "~/containers/PageContainer";
+import { HeaderTypography } from "~/components/HeaderTypography";
 
 export default function AboutPage() {
   return (
@@ -16,9 +17,7 @@ export default function AboutPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h5" fontWeight="bold">
-          SOBRE NÓS
-        </Typography>
+        <HeaderTypography text="SOBRE NÓS" />
       </Stack>
       <Stack>
         <PageContainer>
@@ -82,9 +81,7 @@ export default function AboutPage() {
           </Stack>
         </PageContainer>
         <Stack justifyContent="center" alignItems="center" spacing={2} pb={2}>
-          <Typography variant="h5" fontWeight="bold" align="center">
-            POR TRAS DO TEMPLO
-          </Typography>
+          <HeaderTypography text="POR TRAS DO TEMPLO" />
           <Stack direction={{ xs: "column", sm: "row" }} spacing={4}>
             <ContentCard
               image="/person-one.svg"
@@ -100,18 +97,9 @@ export default function AboutPage() {
             />
           </Stack>
         </Stack>
+        <HeaderTypography text="FEEDBACK" />
         <PageContainer>
-          <Stack
-            justifyContent="center"
-            direction="column"
-            alignItems="center"
-            spacing={2}
-          >
-            <Typography variant="h5" fontWeight="bold">
-              FEEDBACK
-            </Typography>
-          </Stack>
-          <Grid container direction="row" spacing={4} padding={4}>
+          <Grid container direction="row" spacing={4}>
             {review.map((review, index) => (
               <Grid item key={index} xs={12} md={4}>
                 <Review

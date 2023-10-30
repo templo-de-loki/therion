@@ -2,6 +2,7 @@ import { product } from "~/components/data";
 import { ProductCard } from "~/components/ProductCard";
 import { Stack, Typography } from "@mui/material";
 import { PageContainer } from "~/containers/PageContainer";
+import { HeaderTypography } from "~/components/HeaderTypography";
 
 export default function ServicesPage() {
   return (
@@ -13,9 +14,7 @@ export default function ServicesPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h5" fontWeight="bold">
-          ATENDIMENTOS ORACULARES
-        </Typography>
+        <HeaderTypography text="ATENDIMENTOS ORACULARES" />
       </Stack>
       <Stack>
         <PageContainer>

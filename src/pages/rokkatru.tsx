@@ -1,4 +1,5 @@
 import { Stack, Typography } from "@mui/material";
+import { HeaderTypography } from "~/components/HeaderTypography";
 import { PageContainer } from "~/containers/PageContainer";
 
 export default function RökkatruPage() {
@@ -11,9 +12,7 @@ export default function RökkatruPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h5" fontWeight="bold">
-          RÖKKATRU
-        </Typography>
+        <HeaderTypography text="RÖKKATRU" />
       </Stack>
       <PageContainer>
         <Typography paragraph>
@@ -51,9 +50,7 @@ export default function RökkatruPage() {
           e seres Rökkr por meio de rituais, orações e práticas espirituais.
         </Typography>
       </PageContainer>
-      <Typography variant="h5" fontWeight="bold" align="center">
-        PRINCIPAIS DIVINDADES ROKK
-      </Typography>
+      <HeaderTypography text="PRINCIPAIS DIVINDADES ROKK" />
       <PageContainer>
         <ul>
           <li>

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Snackbar } from "~/components/Snackbar";
 import { Button, Stack, Typography } from "@mui/material";
 import { PageContainer } from "~/containers/PageContainer";
+import { HeaderTypography } from "~/components/HeaderTypography";
 
 export default function EbookPage() {
   const [isSnackbarOpen, setIsSnackbarOpen] = React.useState(false);
@@ -21,9 +22,7 @@ export default function EbookPage() {
           marginTop: theme.spacing(6),
         })}
       >
-        <Typography variant="h5" fontWeight="bold">
-          EBOOK
-        </Typography>
+        <HeaderTypography text="EBOOK" />
       </Stack>
       <PageContainer>
         <Stack
