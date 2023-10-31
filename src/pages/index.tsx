@@ -10,15 +10,7 @@ import { HeaderTypography } from "~/components/HeaderTypography";
 export default function AboutPage() {
   return (
     <>
-      <Stack
-        justifyContent="center"
-        alignItems="center"
-        sx={(theme) => ({
-          marginTop: theme.spacing(6),
-        })}
-      >
-        <HeaderTypography text="SOBRE NÓS" />
-      </Stack>
+      <HeaderTypography text="SOBRE NÓS" />
       <Stack>
         <PageContainer>
           <Stack

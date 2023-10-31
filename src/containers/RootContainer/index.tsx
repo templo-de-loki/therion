@@ -4,7 +4,7 @@ import { Stack } from "@mui/material";
 
 export const RootContainer = ({ children }: React.PropsWithChildren) => {
   return (
-    <Stack pt={8}>
+    <Stack pt={2}>
       <PageBar />
       {children}
       <Stack

@@ -15,15 +15,7 @@ export default function EbookPage() {
   };
   return (
     <>
-      <Stack
-        justifyContent="center"
-        alignItems="center"
-        sx={(theme) => ({
-          marginTop: theme.spacing(6),
-        })}
-      >
-        <HeaderTypography text="EBOOK" />
-      </Stack>
+      <HeaderTypography text="EBOOK" />
       <PageContainer>
         <Stack
           direction={{ xs: "column", sm: "row" }}
@@ -35,6 +27,7 @@ export default function EbookPage() {
             alt="Picture of the author"
             width={282}
             height={419}
+            priority={true}
             style={{ borderRadius: "8px" }}
           />
           <Stack

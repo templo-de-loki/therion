@@ -1,19 +1,11 @@
-import { Stack, Typography } from "@mui/material";
-import { HeaderTypography } from "~/components/HeaderTypography";
+import { Typography } from "@mui/material";
 import { PageContainer } from "~/containers/PageContainer";
+import { HeaderTypography } from "~/components/HeaderTypography";
 
 export default function RökkatruPage() {
   return (
     <>
-      <Stack
-        justifyContent="center"
-        alignItems="center"
-        sx={(theme) => ({
-          marginTop: theme.spacing(6),
-        })}
-      >
-        <HeaderTypography text="RÖKKATRU" />
-      </Stack>
+      <HeaderTypography text="RÖKKATRU" />
       <PageContainer>
         <Typography paragraph>
           O Rökkatru como uma forma específica de espiritualidade nórdica

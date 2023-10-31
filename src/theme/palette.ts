@@ -38,7 +38,7 @@ export const palette = {
   },
   background: {
     paper: "#ffffff",
-    default: "rgba(0, 0, 0, 0.7)",
+    default: "rgba(0, 0, 0, 0.75)",
   },
   common: {
     black: "#000000",

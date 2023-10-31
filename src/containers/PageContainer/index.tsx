@@ -5,7 +5,7 @@ export const PageContainer = ({ children }: React.PropsWithChildren) => {
     <Container maxWidth="lg">
       <Stack
         flexGrow={1}
-        boxShadow={1}
+        boxShadow={4}
         sx={(theme) => ({
           padding: theme.spacing(4),
           margin: `${theme.spacing(2)} auto`,

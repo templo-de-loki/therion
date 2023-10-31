@@ -7,15 +7,7 @@ import { HeaderTypography } from "~/components/HeaderTypography";
 export default function ServicesPage() {
   return (
     <>
-      <Stack
-        justifyContent="center"
-        alignItems="center"
-        sx={(theme) => ({
-          marginTop: theme.spacing(6),
-        })}
-      >
-        <HeaderTypography text="ATENDIMENTOS ORACULARES" />
-      </Stack>
+      <HeaderTypography text="ATENDIMENTOS ORACULARES" />
       <Stack>
         {product.map((product, index) => (
           <PageContainer key={index}>
