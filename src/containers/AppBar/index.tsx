@@ -28,7 +28,7 @@ const PageBar = () => {
     { label: "SOBRE", path: "/" },
     { label: "RÖKKATRU", path: "/rokkatru" },
     { label: "EBOOK", path: "/ebook" },
-    { label: "ATENDIMENTO", path: "/atendimento" },
+    { label: "ATENDIMENTOS", path: "/atendimentos" },
     { label: "CONTATO", path: "/contato" },
     { label: "PESQUISA", path: "/pesquisa" },
   ];

@@ -63,8 +63,8 @@ export default function EbookPage() {
             </Stack>
             <Button
               fullWidth
+              color="secondary"
               variant="outlined"
-              color="info"
               onClick={handleOpenSnackbar}
             >
               Baixar Ebook
