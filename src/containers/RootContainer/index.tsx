@@ -1,8 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
-import PageBar from "../AppBar";
 import Image from "next/image";
+import PageBar from "../AppBar";
 import { Stack } from "@mui/material";
-import Footer from "../Footer";
 
 export const RootContainer = ({ children }: React.PropsWithChildren) => {
   return (
@@ -29,7 +27,6 @@ export const RootContainer = ({ children }: React.PropsWithChildren) => {
           }}
         />
       </Stack>
-      <Footer />
     </Stack>
   );
 };
