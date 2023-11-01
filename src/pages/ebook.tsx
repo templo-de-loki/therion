@@ -45,13 +45,23 @@ export default function EbookPage() {
               <Typography variant="h5" fontWeight="bold" paragraph>
                 Rökkatru: Guia para te auxiliar nas práticas rokkatru
               </Typography>
-              <Typography variant="body1">
-                &quot;Rökkatru&quot; é uma religião moderna e politeísta que
-                presta homenagem aos deuses e espíritos do Rokkr, ou Jotnar, os
+              <Typography gutterBottom>
+                Esse ebook foi criado com o intuito de auxiliar você, jovem
+                magista que se sente perdido dentro do paganismo nórdico, ou que
+                já possui interesse nas práticas ocultas do meio e quer conhecer
+                mais sobre as práticas e ensinamentos rokkatru.
+              </Typography>
+              <Typography gutterBottom>
+                Nesse ebook trarei técnicas, conhecimentos e reflexões sobre o
+                lado oculto do paganismo nórdico
+              </Typography>
+              <Typography>
+                Rokkatru é uma vertente do paganismo nórdico que presta
+                homenagem aos deuses e espíritos do Rokkr, ou Jotnar, os
                 gigantes do panteão nórdico. Este livro é um guia para a
-                história e prática da Rökkatru, e inclui um guia sobre os deuses
+                história e prática da Rõkkatru, e inclui um guia sobre os deuses
                 e espíritos do Rokkr, um guia sobre os feriados e um guia sobre
-                a prática da Rökkatru.
+                a prática da Rõkkatru.
               </Typography>
             </Stack>
             <Button

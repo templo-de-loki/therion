@@ -37,7 +37,7 @@ export const ProductCard = ({
           src={image}
           alt={product}
           width="100%"
-          style={{ borderRadius: 10, opacity: 0.5 }}
+          style={{ borderRadius: 10, opacity: 0.8 }}
         />
       </Grid>
       <Grid item md={6} direction="row" spacing={2}>

@@ -54,3 +54,36 @@ export const product = [
       "Admira muito uma divindade do meio nórdico, está sentindo seu chamado, mas ainda não tem certeza de como começar, como se conectar e desenvolver suas conexões e ensinamentos? Aqui eu te auxilio passo a passo nesse caminho, trazendo luz e guiança aos seus processos, esclarecendo suas dúvidas e auxiliando no início de sua jornada de conexão.",
   },
 ];
+
+export const blog = [
+  {
+    image: "background.svg",
+    title: "Loki",
+    text: "é uma figura complexa na mitologia nórdica e desempenha um papel central na visão do Rokkatru. Ele é visto como o Trickster, o agente do caos e da transformação. Os seguidores do Rokkatru valorizam sua capacidade de desafiar as normas e revelar a verdade oculta por trás das aparências",
+  },
+  {
+    image: "background.svg",
+    title: "Angrboda",
+    text: "é uma deusa gigante associada à magia, ao seidr e à maternidade. Ela é vista como a mãe de monstros, incluindo Fenrir, Jormungandr e Hela.Angrboda é muitas vezes vista como uma deusa da sabedoria obscura e da magia. Seu conhecimento das artes mágicas, especialmente do seidr, é altamente respeitado. Ela é vista como uma mentora, uma guardiã de segredos esotéricos e uma guia nas trilhas da escuridão interior.",
+  },
+  {
+    image: "background.svg",
+    title: "Fenrir",
+    text: "é uma figura inspiradora. Sua presença nos ensina que as sombras têm seu próprio poder e sabedoria. Assim como a escuridão da noite é necessária para apreciarmos a luz do dia, as partes difíceis da vida têm um propósito. Fenrir nos motiva a enfrentar o desconhecido e a abraçar as partes mais profundas de nós mesmos.",
+  },
+  {
+    image: "background.svg",
+    title: "Hela",
+    text: "é reverenciada como uma figura que compreende as profundezas da existência, incluindo a morte e o desconhecido. Ela personifica a dualidade entre vida e morte, luz e sombras, e nos lembra que a morte é uma parte natural da vida. No Rokkatru, a morte não é temida ou evitada, mas aceita como parte do ciclo cósmico.",
+  },
+  {
+    image: "background.svg",
+    title: "Jormungandr",
+    text: "é a serpente mundial que circunda a Terra. Ela representa a ligação entre os reinos e a dualidade do mundo. Os seguidores do Rokkatru veem em Jormungandr a importância de equilibrar forças opostas.",
+  },
+  {
+    image: "background.svg",
+    title: "Sigyn",
+    text: "Sigyn é vista como uma deusa associada à lealdade e à fidelidade. Ela é lembrada por sua devoção a Loki, mesmo nas situações mais difíceis. Na visão do Rokkatru, Sigyn simboliza a importância da fidelidade a si mesmo e aos outros, mesmo nas circunstâncias mais desafiadoras.",
+  },
+];
