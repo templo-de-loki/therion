@@ -53,9 +53,6 @@ export const ProductCard = ({
               {product}
             </Typography>
           </Tooltip>
-          <Typography variant="h5" fontWeight="bold" color="secondary">
-            {price}
-          </Typography>
         </Stack>
         <Typography paragraph>{shortDescription}</Typography>
         <Stack direction="row" spacing={1} justifyContent="center">

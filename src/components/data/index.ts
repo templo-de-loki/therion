@@ -19,39 +19,57 @@ export const review = [
 export const product = [
   {
     product: "Uthark",
-    price: "R$20,00",
+    price: "R$80,00",
     image: "uthark.svg",
     shortDescription:
-      "Tiragem rúnica focada no método oracular do Utark, visando o autodesenvolvimento, através da identificação e análise dos bloqueios, medos e sombras que ainda te impedem de alcançar sua melhor versão. ",
-    description:
       "Você sente seus caminhos travados? Sente que algo te impede de alcançar seus sonhos e objetivos mesmo desejando e fazendo tudo certo? Então essa tiragem é para você!",
+    description:
+      "Uma consulta de aproximadamente 1 a 3 horas de duração, visando proporcionar um discernimento mais profundo sobre as suas questões e dúvidas pessoais. Utilizando o método oracular do Uthark, acessaremos camadas profundas dos seus processos e questionamentos internos, promovendo maior discernimento acerca das ações necessárias para uma resolução dos assuntos abordados na consulta.",
   },
   {
     product: "Runologia do Nome",
-    price: "R$40,00",
+    price: "R$115,00",
     image: "name-runology.svg",
     shortDescription:
       "Você sabia que cada letra do seu nome pode revelar traços de personalidade, talentos e até mesmo desafios em sua vida? Com a runologia, você pode desvendar esses mistérios e aprender mais sobre si mesmo e sobre as energias que carrega.",
     description:
-      "Quer descobrir mais sobre a ferramenta de poder que recebeu em seu nascimento e dos potenciais escondidos que possui? Então esse é o lugar certo para você!",
+      "Quer descobrir mais sobre a ferramenta de poder que recebeu em seu nascimento e dos potenciais escondidos que possui? Então esse é o lugar certo para você! /n Na runologia, analisaremos minuciosamente o seu nome, letra por letra, inscrito no antigo alfabeto rúnico, com o propósito de ajudar a revelar a sua força interior e seus potenciais escondidos que podem estar trabalhando contra ou a favor do seu caminho pessoal. Uma análise voltada à potencializar energias favoráveis e ajudar no controle de energias que podem estar atrapalhando seu dia a dia.",
   },
   {
     product: "Mapa Rúnico",
-    price: "R$60,00",
+    price: "R$115,00",
     image: "runic-map.svg",
     shortDescription:
-      "Uma análise das energias do seu presente, passado e futuro, destrinchando as sombras e oportunidades contidas em seu campo espiritual, pessoal, amoroso, emocional e financeiro, guiando-o através das melhores energias que atuarão no seu desenvolvimento pessoal completo.",
-    description:
       "Está totalmente perdido e sem rumo e precisa de uma luz sobre como andam suas energias nas principais áreas da sua vida? Então esse é o espaço certo para você!",
+    description:
+      "Uma análise detalhada e completa sobre as áreas principais da sua vida (amorosa, financeira, espiritual e pessoal.) Um guia para te auxiliar na jornada de vida e na iluminação do seu caminho.",
   },
   {
     product: "Mentoria",
-    price: "R$190,00",
+    price: "R$195,00",
     image: "mentoring.svg",
     shortDescription:
-      "Jornada guiada através de 4 encontros mensais ao vivo e acompanhamento diário, te auxiliando nas suas práticas mágicas e contato com os deuses. Através da força das divindades e da sua própria energia, montaremos juntos um caminho de maior conectividade e culto, dando luz ao caminho que seu coração escolher trilhar.",
-    description:
       "Admira muito uma divindade do meio nórdico, está sentindo seu chamado, mas ainda não tem certeza de como começar, como se conectar e desenvolver suas conexões e ensinamentos? Aqui eu te auxilio passo a passo nesse caminho, trazendo luz e guiança aos seus processos, esclarecendo suas dúvidas e auxiliando no início de sua jornada de conexão.",
+    description:
+      " Acompanhamento diário, durante 1 mês, com estudos personalizados, experiências com divindades, práticas mágicas, meditações e uma videochamada semanal(4 encontros), com o intuito de aprimorar o seu entendimento e conexão com a divindade que escolher se aprofundar, com rituais personalizados e todas as práticas mágicas necessárias para a sua evolução pessoal e no caminho magístico junto à divindade vigente.",
+  },
+  {
+    product: "Energia da semana",
+    price: "R$10,00",
+    image: "weekly-energy.svg",
+    shortDescription:
+      "Uma análise da energia da sua semana, com o método oracular do Futhark",
+    description:
+      "Deseja saber quais energias te esperam nessa semana? Compreender o que te espera, te auxiliará a tomar decisões mais sábias no seu dia a dia.",
+  },
+  {
+    product: "Energia do mês.",
+    price: "R$35,00",
+    image: "montly-energy.svg",
+    shortDescription:
+      "Uma análise completa da energia que irá reger seu mês, destrinchando semana por semana com o método oracular do Futhark.",
+    description:
+      "Deseja saber quais energias te esperam nesse mês? Compreender o que te espera, ampliará sua visão a cerca dos eventos e decisões presentes no mês vigente para que suas ações sejam certeiras.",
   },
 ];
 

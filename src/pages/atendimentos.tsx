@@ -15,7 +15,7 @@ export default function ServicesPage() {
               price={product.price}
               image={product.image}
               product={product.product}
-              shortDescription={product.description}
+              shortDescription={product.shortDescription}
               description={product.description}
             />
           </PageContainer>
