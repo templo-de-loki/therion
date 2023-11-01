@@ -29,7 +29,7 @@ const PageBar = () => {
     { label: "EBOOK", path: "/ebook" },
     { label: "ATENDIMENTOS", path: "/atendimentos" },
     { label: "CONTATO", path: "/contato" },
-    { label: "PESQUISA", path: "/pesquisa" },
+    // { label: "PESQUISA", path: "/pesquisa" },
   ];
 
   const handleButtonClick = (path: string) => {
