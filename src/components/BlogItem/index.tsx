@@ -14,7 +14,7 @@ export const BlogItem = ({ text, image, title }: BlogItemProps) => {
         src={image}
         alt="Image of the blog post"
         width="100%"
-        height={120}
+        height={170}
         style={{
           objectFit: "cover",
           objectPosition: "center",
