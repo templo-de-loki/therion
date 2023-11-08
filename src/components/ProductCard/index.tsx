@@ -62,7 +62,7 @@ export const ProductCard = ({
             variant="outlined"
             onClick={handleBuyClick}
           >
-            Comprar
+            Tenho interesse
           </Button>
           {!isMobile && (
             <Tooltip title={description} enterDelay={100} leaveDelay={200}>
