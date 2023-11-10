@@ -1,6 +1,6 @@
 # Therion / Templo de Loki
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+You can check the deploy of this website at [Templo de Loki](https://www.templodeloki.site/).
 
 ## What's next? How do I make an app with this?
 
