@@ -9,11 +9,10 @@ interface BlogItemProps {
 
 export const BlogItem = ({ text, image, title }: BlogItemProps) => {
   return (
-    <Stack pb={6}>
+    <Stack direction={{ xs: "column", md: "row" }} pb={4} spacing={6}>
       <img
         src={image}
         alt="Image of the blog post"
-        width="100%"
         height={170}
         style={{
           objectFit: "cover",
@@ -23,7 +22,8 @@ export const BlogItem = ({ text, image, title }: BlogItemProps) => {
         }}
       />
       <Typography>
-        <b>{title}</b> {text}
+        <Typography variant="h6">{title}</Typography>
+        <Typography variant="h10">{text}</Typography>
       </Typography>
     </Stack>
   );
