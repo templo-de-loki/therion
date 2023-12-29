@@ -23,7 +23,7 @@ export const BlogItem = ({ text, image, title }: BlogItemProps) => {
       />
       <Typography>
         <Typography variant="h6">{title}</Typography>
-        <Typography variant="h10">{text}</Typography>
+        <Typography>{text}</Typography>
       </Typography>
     </Stack>
   );
