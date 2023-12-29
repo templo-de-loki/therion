@@ -42,16 +42,14 @@ export default function RökkatruPage() {
         </Typography>
       </PageContainer>
       <HeaderTypography text="PRINCIPAIS DIVINDADES ROKK" />
-      <PageContainer>
-        {blog.map((blog, index) => (
-          <BlogItem
-            key={index}
-            image={blog.image}
-            title={blog.title}
-            text={blog.text}
-          />
-        ))}
-      </PageContainer>
+      {blog.map((blog, index) => (
+        <BlogItem
+          key={index}
+          image={blog.image}
+          title={blog.title}
+          text={blog.text}
+        />
+      ))}
     </>
   );
 }
