@@ -18,6 +18,15 @@ export const review = [
 
 export const product = [
   {
+    product: "Grupo de Estudo",
+    price: "R$85,00 x 4 ou R$300,00 x 1",
+    image: "castle.svg",
+    shortDescription:
+      "Você sente seus caminhos travados? Sente que algo te impede de alcançar seus sonhos e objetivos mesmo desejando e fazendo tudo certo? Então essa tiragem é para você!",
+    description:
+      "Uma consulta de aproximadamente 1 a 3 horas de duração, visando proporcionar um discernimento mais profundo sobre as suas questões e dúvidas pessoais. Utilizando o método oracular do Uthark, acessaremos camadas profundas dos seus processos e questionamentos internos, promovendo maior discernimento acerca das ações necessárias para uma resolução dos assuntos abordados na consulta.",
+  },
+  {
     product: "Uthark",
     price: "R$80,00",
     image: "uthark.svg",
